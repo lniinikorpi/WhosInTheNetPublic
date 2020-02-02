@@ -182,7 +182,7 @@ public class GameManager : MonoBehaviour
             CalculateNewTarget();
             if (canBreak < gameTime)
             {
-                canBreak = Time.time + Random.Range(breakTimeMin, breakTimeMax); ;
+                canBreak = gameTime + Random.Range(breakTimeMin, breakTimeMax); ;
                 RaffleBreak();
             }
             BreakAntenna();
