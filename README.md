@@ -1,2 +1,2 @@
-# WhosInTheNetPublic
-Public repository for Who's in the net
+# WhosInTheInternet
+GGJ2020 project
